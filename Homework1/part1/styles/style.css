@@ -1,0 +1,62 @@
+#main{
+    color: white;
+}
+
+.header{
+    background: rgb(56, 53, 53);
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    color: white;
+}
+
+.container-contents {
+    background: rgb(155, 219, 234);
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.container-bio {
+    background: rgb(37, 157, 83);
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.container-images {
+    background: rgb(228, 153, 153);
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.container-images .images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container-images figure {
+    margin: 0 0px;
+    display: inline-block;
+    width: calc(50% - 40px);
+}
+
+.container-images img {
+    margin: 0;
+    width: 30%;
+    height: auto;
+}
+
+.container-images figcaption {
+    margin-top: 8px;
+}
+
+.image-jux {
+    width: 20%;
+    display: inline-block; 
+    vertical-align: top;
+}
